@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:curved_nav_bar/curved_bar/curved_action_bar.dart';
 import 'package:curved_nav_bar/fab_bar/fab_bottom_app_bar_item.dart';
 import 'package:curved_nav_bar/flutter_curved_bottom_nav_bar.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -63,25 +64,25 @@ class _MyHomePageState extends State<MyHomePage> {
       inActiveColor: Colors.black45,
       appBarItems: [
         FABBottomAppBarItem(
-            activeIcon: Icon(
-              Icons.home,
-              color: Colors.blue,
-            ),
-            inActiveIcon: Icon(
-              Icons.home,
-              color: Colors.black26,
-            ),
-            text: 'Home'),
+          activeIcon: Icon(
+            Icons.home,
+            color: Colors.blue,
+          ),
+          inActiveIcon: Icon(
+            Icons.home,
+            color: Colors.black26,
+          ),
+        ),
         FABBottomAppBarItem(
-            activeIcon: Icon(
-              Icons.wallet_giftcard,
-              color: Colors.blue,
-            ),
-            inActiveIcon: Icon(
-              Icons.wallet_giftcard,
-              color: Colors.black26,
-            ),
-            text: 'Wallet'),
+          activeIcon: Icon(
+            Icons.wallet_giftcard,
+            color: Colors.blue,
+          ),
+          inActiveIcon: Icon(
+            Icons.wallet_giftcard,
+            color: Colors.black26,
+          ),
+        ),
       ],
       bodyItems: [
         Container(
